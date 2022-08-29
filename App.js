@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Cesta from './src/screen/Cesta';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>teste up App.js to start working on your app!</Text>
+      <Cesta></Cesta>
       <StatusBar style="auto" />
     </View>
   );
